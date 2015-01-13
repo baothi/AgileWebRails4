@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1468610035">
+    <data-source source="LOCAL" name="Rails AgileWebRails4: development" uuid="ed732b27-85c3-490e-b6cd-559425aa293a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/AgileWebRails4</jdbc-url>
+      <user-name>baothi</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails AgileWebRails4: test" uuid="9b75ac87-ec1d-43b7-82a0-cd5e3c404808">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:AgileWebRails4_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails AgileWebRails4: production" uuid="2ec11d4b-7f69-4d40-9a64-2238cd5be2a3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:AgileWebRails4_production</jdbc-url>
+      <user-name>AgileWebRails4</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdfeddfe3dfe6dfefdffddfefdfe8dff8dfebdfe3dfe6dff9df9edff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

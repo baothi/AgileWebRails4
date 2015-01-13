@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails AgileWebRails4: development" uuid="ed732b27-85c3-490e-b6cd-559425aa293a">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails AgileWebRails4: test" uuid="9b75ac87-ec1d-43b7-82a0-cd5e3c404808">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails AgileWebRails4: production" uuid="2ec11d4b-7f69-4d40-9a64-2238cd5be2a3">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
