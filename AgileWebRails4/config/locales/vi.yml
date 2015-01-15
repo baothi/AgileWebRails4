@@ -1,0 +1,102 @@
+#vi:
+#  layouts:
+#    application:
+#      title:       "Bán Sách online nè"
+#      home:        "Trang Chủ"
+#      questions:   "Đặt Câu hỏi"
+#      news:        "Mới"
+#      contact:     "Liên hệ"
+#
+#  store:
+#    index:
+#      title_html: "Loại sản Phẩm"
+#      add_html: "Chọn Sản Phẩm"
+#
+#  carts:
+#    cart:
+#      title: "Tính Tiền"
+#      empty: "xóa sản phẩm đã chọn"
+#      Checkout: "Kiểm tra sản phẩm "
+#
+#  number:
+#    currency:
+#      format:
+#        unit: "VND"
+#        precision:  2
+#        separator: "."
+#        delimiter: ","
+#        format: "%u%n"
+#
+#START:layout
+#START:main
+#START:cart
+#START:currency
+#START:checkout
+#START:flash
+vi:
+
+#END:cart
+#END:checkout
+#END:flash
+#END:main
+#END:layout
+  number:
+    currency:
+      format:
+        unit:      "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+#END:currency
+
+#START:errors
+  errors:
+    template:
+      body:        "There were problems with the following fields:"
+      header:
+        one:       "1 error prohibited this %{model} from being saved"
+        other:     "%{count} errors prohibited this %{model} from being saved"
+#END:errors
+
+#START:layout
+  layouts:
+    application:
+      title:       "Bán Sách online nè"
+      home:        "Trang Chủ"
+      questions:   "Đặt Câu hỏi"
+      news:        "Mới"
+      contact:     "Liên hệ"
+#END:layout
+
+#START:cart
+  carts:
+      cart:
+        title: "Tính Tiền"
+        empty: "xóa sản phẩm đã chọn"
+        Checkout: "Kiểm tra sản phẩm "
+#END:cart
+
+#START:main
+  store:
+      index:
+        title_html: "Loại sản Phẩm"
+        add_html: "Chọn Sản Phẩm"
+#END:main
+
+#START:checkout
+  orders:
+    new:
+      legend:       "Điền Thông Tin Giao Hàng"
+    form:
+      name:         "Tên"
+      address_html: "Địa Chỉ"
+      email:        "E-mail"
+      pay_type:     "Tính Tiền"
+      pay_prompt_html: "Chọn Hình Thức Trả Tiền"
+      submit:       "Lưu"
+#END:checkout
+
+#START:flash
+  thanks:          "Cám Ơn Bạn Đã Mua Mua Sản Phẩm"
+#END:flash
